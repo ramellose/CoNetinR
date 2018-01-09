@@ -1,0 +1,21 @@
+Package: CoNetinR
+Title: CoNet implementation in R
+Version: 0.0.0.9000
+Authors@R: c(person("Karoline", "Faust", role = c("aut")),
+            person("Lisa", "Rottjers", email = "lisa.rottjers@kuleuven.be", role = "cre"))
+Description: The CoNetinR package provides an R implementation of CoNet. Note that this implementation has less functions than the Cytoscape implementation; for example, p-value merging and ensemble edge calculation is not available. 
+Depends: R (>= 3.4.2), seqtime
+Imports:
+    grDevices, 
+    graphics,
+    stats,
+    gdata,
+    vegan
+Suggests: knitr, 
+          ggplot2,
+          reshape2
+License: FreeBSD
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
