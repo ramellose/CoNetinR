@@ -8,6 +8,7 @@ To install the development version in R, use
 
 ```r
 library(devtools)  
+install_github("hallucigenia-sparsa/seqtime")  
 install_github("ramellose/CoNetinR")  
 library(CoNetinR)  
 ```
